@@ -56,7 +56,7 @@ index 0bc4008..15ca166 100644
  			LOG(WARNING) << "Socialclub patterns failed to load";
  
 -		Notifications::Show("YimMenuV2", "Loaded succesfully", NotificationType::Success);
-+		Notifications::Show("大助手汉化", "加载成功", NotificationType::Success);
++		Notifications::Show("大助手繁體中文", "載入成功", NotificationType::Success);
  
  		while (g_Running)
  		{
