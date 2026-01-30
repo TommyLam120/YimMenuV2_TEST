@@ -38,7 +38,7 @@ diff --git a/src/game/frontend/fonts/Fonts.hpp b/src/game/frontend/fonts/Fonts.h
 index dc0f801..4b67f48 100644
 --- a/src/game/frontend/fonts/Fonts.hpp
 +++ b/src/game/frontend/fonts/Fonts.hpp
-@@ -3,7 +3,7 @@
+@@ -3,6 +3,6 @@
  
  namespace YimMenu::Fonts
  {
