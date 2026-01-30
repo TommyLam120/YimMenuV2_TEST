@@ -51,7 +51,7 @@ diff --git a/src/main.cpp b/src/main.cpp
 index 0bc4008..15ca166 100644
 --- a/src/main.cpp
 +++ b/src/main.cpp
-@@ -83,6 +83,6 @@ namespace YimMenu
+@@ -83,5 +83,5 @@ namespace YimMenu
  		if (!Pointers.LateInit())
  			LOG(WARNING) << "Socialclub patterns failed to load";
  
