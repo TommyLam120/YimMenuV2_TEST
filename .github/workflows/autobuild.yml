@@ -21,14 +21,14 @@ jobs:
         git clone --recursive https://github.com/YimMenu/YimMenuV2.git
         cd YimMenuV2
 
-    - name: Translate YimMenuV2
+    - name: Patch YimMenuV2
       run: |
         cd YimMenuV2
         cp ../*.py .
         cp ../*.TTF .
         cp ../*.diff .
         cp ../*.json .
-        git apply stage.diff
+        git apply Patch.diff
         python font.py
         mv MainFont.cpp src/game/frontend/fonts -Force
         python translate.py
