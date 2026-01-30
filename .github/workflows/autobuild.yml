@@ -2,8 +2,8 @@ name: Auto Build
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 時間午夜運行
-  workflow_dispatch:      # 允許手動觸發
+    - cron: '0 0 * * *'  # 每天 UTC 时间午夜运行
+  workflow_dispatch:      # 允许手动触发
 jobs:
   create-release:
     name: Auto Build
