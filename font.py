@@ -26,7 +26,7 @@ def ttf_to_header(ttf_path, output_path, font_name):
 
 if __name__ == '__main__':
     # 示例用法
-    ttf_path = 'hei.TTF'  # 替换为你的TTF文件路径
+    ttf_path = 'kaiu.TTF'  # 替换为你的TTF文件路径
     output_path = './MainFont.cpp'  # 输出头文件路径
     font_name = 'MainFont'  # 字体变量名
     
