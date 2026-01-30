@@ -15,7 +15,7 @@ diff --git a/src/game/frontend/Menu.cpp b/src/game/frontend/Menu.cpp
 index 55f5e9a..3819ebe 100644
 --- a/src/game/frontend/Menu.cpp
 +++ b/src/game/frontend/Menu.cpp
-@@ -113,14 +113,14 @@ namespace YimMenu
+@@ -97,5 +97,5 @@ namespace YimMenu
  		ImFontConfig FontCfg{};
  		FontCfg.FontDataOwnedByAtlas = false;
  
