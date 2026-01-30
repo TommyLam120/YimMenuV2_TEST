@@ -62,8 +62,8 @@ jobs:
         body: |
           Automatic build of YimMenu
           Commit: ${{ github.sha }}
-        draft: true
-        prerelease: true
+        draft: false
+        prerelease: false
         files: |
           YimMenuV2/build/YimMenuV2.dll
           
