@@ -56,12 +56,13 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
+        overwrite: true
         tag_name: Latest
         name: Autobuild
         body: |
           Automatic build of YimMenu
           Commit: ${{ github.sha }}
-          overwrite: true
+          
         files: |
           YimMenuV2/build/YimMenuV2.dll
 
